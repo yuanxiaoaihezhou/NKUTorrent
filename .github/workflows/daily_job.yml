@@ -20,8 +20,8 @@ jobs:
         run: python script.py
       - name: Commit changes
         run: |
-          git config --global user.name "TephrocactusHC"
-          git config --global user.email "1531176958@qq.com"
+          git config --global user.name "GuGu"
+          git config --global user.email "13920958591@163.com"
           git add .
           git commit -m "Update data"
       - name: Push changes
